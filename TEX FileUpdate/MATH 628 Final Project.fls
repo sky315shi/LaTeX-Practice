@@ -1,9 +1,9 @@
-PWD c:/Users/95223/OneDrive - Texas A&M University/TAMU/2024 Fall/FINC 661
+PWD c:/Users/95223/Desktop/LaTeX Practice/TEX FileUpdate
 INPUT c:/texlive/2024/texmf.cnf
 INPUT c:/texlive/2024/texmf-dist/web2c/texmf.cnf
 INPUT c:/texlive/2024/texmf-var/web2c/pdftex/pdflatex.fmt
-INPUT c:/Users/95223/OneDrive - Texas A&M University/TAMU/2024 Fall/FINC 661/test.tex
-OUTPUT test.log
+INPUT c:/Users/95223/Desktop/LaTeX Practice/TEX FileUpdate/MATH 628 Final Project.tex
+OUTPUT MATH 628 Final Project.log
 INPUT c:/texlive/2024/texmf-dist/tex/latex/base/article.cls
 INPUT c:/texlive/2024/texmf-dist/tex/latex/base/article.cls
 INPUT c:/texlive/2024/texmf-dist/tex/latex/base/size12.clo
@@ -94,10 +94,10 @@ INPUT c:/texlive/2024/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty
 INPUT c:/texlive/2024/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty
 INPUT c:/texlive/2024/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
 INPUT c:/texlive/2024/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
-INPUT ./test.aux
-INPUT ./test.aux
-INPUT test.aux
-OUTPUT test.aux
+INPUT ./MATH 628 Final Project.aux
+INPUT ./MATH 628 Final Project.aux
+INPUT MATH 628 Final Project.aux
+OUTPUT MATH 628 Final Project.aux
 INPUT c:/texlive/2024/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 INPUT c:/texlive/2024/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 INPUT c:/texlive/2024/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
@@ -106,14 +106,14 @@ INPUT c:/texlive/2024/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 INPUT c:/texlive/2024/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 INPUT c:/texlive/2024/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 INPUT c:/texlive/2024/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
-INPUT ./test.out
-INPUT ./test.out
-INPUT test.out
-INPUT test.out
-OUTPUT test.pdf
-INPUT ./test.out
-INPUT ./test.out
-OUTPUT test.out
+INPUT ./MATH 628 Final Project.out
+INPUT ./MATH 628 Final Project.out
+INPUT MATH 628 Final Project.out
+INPUT MATH 628 Final Project.out
+OUTPUT MATH 628 Final Project.pdf
+INPUT ./MATH 628 Final Project.out
+INPUT ./MATH 628 Final Project.out
+OUTPUT MATH 628 Final Project.out
 INPUT c:/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmr17.tfm
 INPUT c:/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmr12.tfm
 INPUT c:/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmmi12.tfm
@@ -171,9 +171,9 @@ INPUT ./paper3.jpg
 INPUT ./paper3.jpg
 INPUT ./paper3.jpg
 INPUT ./paper3.jpg
-INPUT test.aux
-INPUT ./test.out
-INPUT ./test.out
+INPUT MATH 628 Final Project.aux
+INPUT ./MATH 628 Final Project.out
+INPUT ./MATH 628 Final Project.out
 INPUT c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
 INPUT c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb
 INPUT c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb

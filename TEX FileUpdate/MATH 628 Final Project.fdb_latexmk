@@ -1,6 +1,9 @@
 # Fdb version 4
-["pdflatex"] 1731750292.97618 "c:/Users/95223/OneDrive - Texas A&M University/TAMU/2024 Fall/FINC 661/test.tex" "test.pdf" "test" 1731750294.17143 0
-  "c:/Users/95223/OneDrive - Texas A&M University/TAMU/2024 Fall/FINC 661/test.tex" 1731750290 7617 e9bf2bebc0350af42d1e05e013fd63e9 ""
+["pdflatex"] 1731750518.74718 "c:/Users/95223/Desktop/LaTeX Practice/TEX FileUpdate/MATH 628 Final Project.tex" "MATH 628 Final Project.pdf" "MATH 628 Final Project" 1731750519.74598 0
+  "MATH 628 Final Project.aux" 1731750519 2057 9d87b840bc5dafa3facba29f3e302175 "pdflatex"
+  "MATH 628 Final Project.out" 1731750519 1562 658fa649484f8987c9848ae40fbd0728 "pdflatex"
+  "MATH 628 Final Project.tex" 1731750290 7617 e9bf2bebc0350af42d1e05e013fd63e9 ""
+  "c:/Users/95223/Desktop/LaTeX Practice/TEX FileUpdate/MATH 628 Final Project.tex" 1731750290 7617 e9bf2bebc0350af42d1e05e013fd63e9 ""
   "c:/texlive/2024/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc" 1727333416 2900 1537cc8184ad1792082cd229ecc269f4 ""
   "c:/texlive/2024/texmf-dist/fonts/map/fontname/texfonts.map" 1727335094 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "c:/texlive/2024/texmf-dist/fonts/tfm/jknappen/ec/tcrm1200.tfm" 1727334380 1536 74b7293ec3713bb7fdca8dd1bd1f469c ""
@@ -90,12 +93,9 @@
   "paper1.jpg" 1731749780 34130 0f472b819f39712a726fe31cdb11cbd4 ""
   "paper2.jpg" 1731749788 27678 b4612f2c0290872629b2534bff490600 ""
   "paper3.jpg" 1731749802 37999 e881825b75c69778beadca6beda10691 ""
-  "test.aux" 1731750294 2057 9d87b840bc5dafa3facba29f3e302175 "pdflatex"
-  "test.out" 1731750294 1562 658fa649484f8987c9848ae40fbd0728 "pdflatex"
-  "test.tex" 1731750290 7617 e9bf2bebc0350af42d1e05e013fd63e9 ""
   (generated)
-  "test.aux"
-  "test.log"
-  "test.out"
-  "test.pdf"
+  "MATH 628 Final Project.aux"
+  "MATH 628 Final Project.log"
+  "MATH 628 Final Project.out"
+  "MATH 628 Final Project.pdf"
   (rewritten before read)
