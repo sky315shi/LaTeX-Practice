@@ -1,0 +1,40 @@
+\documentclass[12pt]{article}
+\pagestyle{plain}
+\usepackage{amsmath, amssymb, amsfonts}
+
+\begin{document}
+    \noindent (a) Since:
+    $$a_1=1, a_2 = 3, a_n = a_{n-1}+a_{n-2} (n\geq3)$$
+    For
+    $$x^{n+2}=x^{n+1}+x^n$$
+    We can have:
+    $$x^2-x-1=0$$
+    Thus,
+    $$x_1=\frac{1+\sqrt{5}}{2}, x_2=\frac{1-\sqrt{5}}{2}$$
+    Therefore, we let $L(n)=C\cdot(\frac{1+\sqrt{5}}{2})^n+D\cdot(\frac{1-\sqrt{5}}{2})^n$
+    We can have:
+    $$
+        \begin{cases}
+                C\cdot(\frac{1+\sqrt{5}}{2})^1+D\cdot(\frac{1-\sqrt{5}}{2})^1=1, (n=1) \\
+                C\cdot(\frac{1+\sqrt{5}}{2})^2+D\cdot(\frac{1-\sqrt{5}}{2})^2=3, (n=2)
+        \end{cases}
+    $$
+    By solving the equation, we can have $C=1, D=1$
+    
+    Thus,
+    $$L(n)=(\frac{1+\sqrt{5}}{2})^n+(\frac{1-\sqrt{5}}{2})^n$$
+    Therefore,
+    \begin{align*}
+        & \sum^n_{i=1}L(n)= \sum^n_{i=1}[(\frac{1+\sqrt{5}}{2})^i+(\frac{1-\sqrt{5}}{2})^i] \\
+        & = \frac{\frac{1+\sqrt{5}}{2}\cdot[1-(\frac{1+\sqrt{5}}{2})^n]}{1-\frac{1+\sqrt{5}}{2}}+\frac{\frac{1-\sqrt{5}}{2}\cdot[1-(\frac{1-\sqrt{5}}{2})^n]}{1-\frac{1+\sqrt{5}}{2}}\\
+        & = \frac{1+\sqrt{5}}{1-\sqrt{5}}\cdot[1-(\frac{1+\sqrt{5}}{2})^n)]+ \frac{1-\sqrt{5}}{1+\sqrt{5}}\cdot[1-(\frac{1-\sqrt{5}}{2})^n)]
+    \end{align*}
+    
+    \noindent (b)
+    \begin{align*}
+        & \sum^n_{i=1}L(n)^2= \sum^n_{i=1}[(\frac{1+\sqrt{5}}{2})^i+(\frac{1-\sqrt{5}}{2})^i]^2 \\
+        & = \sum^n_{i=1}(\frac{1-\sqrt{5}}{2})^{2i} + \sum^n_{i=1}(\frac{1+\sqrt{5}}{2})^{2i}+2\cdot\sum^n_{i=1}(-1)^i \\
+        & = (\frac{1-\sqrt{5}}{2})^2\cdot\frac{1-(\frac{1-\sqrt{5}}{2})^{2n}}{1-(\frac{1+\sqrt{5}}{2})^{2}} + \frac{1-(\frac{1+\sqrt{5}}{2})^{2n}}{1-(\frac{1+\sqrt{5}}{2})^{2}} + 2(-1)^n \\
+        & = \frac{1-\sqrt{5}}{2}[1-\frac{1-\sqrt{5}}{2}^{2n}]-\frac{1+\sqrt{5}}{2}[1-\frac{1+\sqrt{5}}{2}^{2n}]+(-1)^n-1
+    \end{align*}
+\end{document}
